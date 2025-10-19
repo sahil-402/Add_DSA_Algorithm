@@ -1,0 +1,19 @@
+Implementing AVL Tree with insertion and rotations
+
+AVL Tree:
+It is a self-balancing Binary Search Tree (BST) where the difference between heights of left and right
+subtrees cannot be more than one for all nodes. This implementation includes insertion and necessary rotations
+to maintain the AVL property.
+
+   Insertion in AVL Tree involves standard BST insertion followed by checking the balance factor of each node
+   and performing rotations (single or double) to restore balance if needed.
+
+   -> Balance Factor = Height of Left Subtree - Height of Right Subtree
+   -> If Balance Factor > 1, the tree is left-heavy
+   -> If Balance Factor < -1, the tree is right-heavy
+
+   Rotations:
+   1. Right Rotation (for Left-Left case): When a node is inserted into the left subtree of the left child.
+   2. Left Rotation (for Right-Right case): When a node is inserted into the right subtree of the right child.
+   3. Left-Right Rotation (for Left-Right case): When a node is inserted into the right subtree of the left child.
+   4. Right-Left Rotation (for Right-Left case): When a node is inserted into the left subtree of the right child.
