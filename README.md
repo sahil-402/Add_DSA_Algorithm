@@ -1,22 +1,33 @@
-# Data Structures and Algorithms - Bit Manipulation
+# Add_DSA_Algorithm
 
-This repository contains a collection of Data Structures and Algorithms implementations with a focus on Bit Manipulation techniques in C++.
+A comprehensive collection of Data Structures and Algorithms implementations in C++ and other programming languages.
 
-## Table of Contents
+## 📚 Table of Contents
 
-- [Overview](#overview)
-- [Bit Manipulation Algorithms](#bit-manipulation-algorithms)
+- [About](#about)
+- [Current Implementations](#current-implementations)
 - [Setup and Usage](#setup-and-usage)
 - [Contributing](#contributing)
 - [Issues and Improvements](#issues-and-improvements)
+- [License](#license)
 
-## Overview
+## 🎯 About
 
-This repository focuses on implementing various bit manipulation algorithms and techniques in C++. Each file contains specific implementations that demonstrate different bit manipulation concepts.
+This repository contains implementations of various data structures and algorithms. The goal is to provide clear, well-documented code that can serve as a learning resource for students and developers.
 
-## Bit Manipulation Algorithms
+## 📂 Current Implementations
 
-### Basic Operations
+### Sorting Algorithms
+- Binary Search
+- Bubble Sort
+- Insertion Sort
+- Linear Search
+- Merge Sort
+- Selection Sort
+
+### Bit Manipulation
+
+#### Basic Operations
 1. **Check Odd/Even** (`check_odd_even.cpp`)
    - Determines if a number is odd or even using bitwise operations
 
@@ -31,7 +42,7 @@ This repository focuses on implementing various bit manipulation algorithms and 
    - Toggle ith bit (`toogle_ith_bit.cpp`)
    - Set rightmost unset bit (`set_rightMost_bit_unset.cpp`)
 
-### Advanced Operations
+#### Advanced Operations
 1. **Counting Operations**
    - Count set bits (`count_set_bit.cpp`)
    - Find numbers with odd occurrences (`odd_occurence_of_two_num.cpp`)
@@ -45,11 +56,22 @@ This repository focuses on implementing various bit manipulation algorithms and 
    - Generate power set (`power_set.cpp`)
    - Flip bits (`flip_bits.cpp`)
 
-## Setup and Usage
+### Tree Data Structures
+- Binary Tree implementations
+- Binary Search Tree (BST)
+- Tree Properties (Height, Diameter, Balance, Symmetry)
+- Lowest Common Ancestor problems
+- Tree Views (Top, Bottom, Left, Right)
+- Path Problems
+- Tree Constructions
+- AVL Tree
+- Heap implementations
+
+## 🛠 Setup and Usage
 
 ### Prerequisites
 - C++ compiler (GCC recommended)
-- Basic understanding of bit manipulation concepts
+- Basic understanding of data structures and algorithms
 
 ### Compilation
 To compile any program:
@@ -59,21 +81,24 @@ g++ filename.cpp -o output
 
 Example:
 ```bash
-g++ Power_of_2.cpp -o power2
-./power2
+g++ bubble_sort.cpp -o bubble_sort
+./bubble_sort
 ```
 
-## Contributing
+## 🤝 Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request. For major changes:
+We welcome contributions! Please see our [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines on how to contribute to this project.
+
+### Quick Start
 
 1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+2. Create a new branch (`git checkout -b feature/algorithm-name`)
+3. Add your algorithm with proper documentation
+4. Commit your changes (`git commit -m 'Add: Algorithm Name'`)
+5. Push to the branch (`git push origin feature/algorithm-name`)
+6. Open a Pull Request
 
-## Issues and Improvements
+## 🔍 Issues and Improvements
 
 Current issues that need to be addressed:
 
@@ -102,9 +127,14 @@ Current issues that need to be addressed:
    - Implement consistent coding style
    - Add error handling for edge cases
 
-## License
+## 📄 License
 
-This project is open source and available under the [MIT License](LICENSE).
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🌟 Contributors
+
+Thanks to all contributors who have helped build this repository!
 
 ---
-Note: Some implementations might need optimization or improvements. Contributions and suggestions are welcome!
+
+Happy Coding! 💻
